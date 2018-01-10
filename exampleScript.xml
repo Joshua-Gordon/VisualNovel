@@ -1,0 +1,19 @@
+<script>
+    <scene>
+        <title>Scene 1</title>
+        <background>Clarkson</background>
+        <character>Josh</character>
+        <character>Maddie</character>
+        <dialogue>
+            Josh: Hi Maddie
+            Maddie: Bork
+            Josh: How are you doing today?
+            Maddie: Boof
+            Josh: Good discussion
+            Maddie: I concur
+            Josh leaves
+            Maddie leaves
+            Josh appears
+        </dialogue>
+    </scene>
+</script>

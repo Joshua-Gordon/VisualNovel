@@ -1,0 +1,43 @@
+<script>
+    <scene>
+        <title>Test Scene 1</title>
+        <background>clarkson_bg</background>
+        <character>Josh</character>
+        <character>Hal</character>
+        <dialogue>
+            Josh appears
+            Josh: I wonder where Hallie is
+            Hal appears
+            Hal: I am here
+            Josh: Insightful
+            Josh leaves
+            Hal: Oh no
+            Hal leaves
+            Write test.txt
+        </dialogue>
+        <next transition="choice">
+            Follow Josh:Test Scene 2
+            Follow Hallie:Test Scene 3
+        </next>
+    </scene>
+    <scene>
+        <title>Test Scene 2</title>
+        <background>clarkson_bg</background>
+        <character>Josh</character>
+        <dialogue>
+            Josh: Motherfucker
+            Delete test.txt
+        </dialogue>
+        <next transition="direct">END</next>
+    </scene>
+    <scene>
+        <title>Test Scene 3</title>
+        <background>scenter</background>
+        <character>Hal</character>
+        <dialogue>
+            Hal: And I would have gotten away with it if it weren't for you meddling kids
+            Write test.txt This is a test
+        </dialogue>
+        <next transition="direct">END</next>
+    </scene>
+</script>

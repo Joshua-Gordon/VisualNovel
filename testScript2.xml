@@ -1,0 +1,17 @@
+<script>
+    <scene>
+        <title>Test Scene 1</title>
+        <background>scenter</background>
+        <character>Josh</character>
+        <dialogue>
+            Josh appears
+            Josh: Creating a file now
+            Write test.txt This is a test
+            Josh: Deleting the file now
+            Delete test.txt
+            Save
+            Josh: Success!
+        </dialogue>
+        <next>END</next>
+    </scene>
+</script>
